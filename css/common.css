@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+/*	RESET
+---------------------------------*/
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;-webkit-box-sizing:border-box;box-sizing:border-box}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{text-decoration:none}ins,mark{background-color:#ff9;color:#000}mark{font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+/*	COMMON
+---------------------------------*/
+html {
+	font-size: 62.5%;
+}
+body {
+  font-family: 'Noto Sans Japanese', "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+a {
+	text-decoration: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+a:hover {
+	opacity: 0.5;
+}
+img {
+	max-width: 100%;
+}
+li {
+  list-style-type: none;
+}
+@media screen and (max-width: 414px) {
+    body {
+        line-height: 1.6;
+    }
+}
+/*	PARTS
+---------------------------------*/
+/* wrapper */
+.wrapper {
+	overflow:hidden;
+}
+/* ttl */
+.ttl1 {
+
+}
+.ttl2 {
+}
+.ttl3 {
+  
+}
+.ttl4 {
+  
+}
+/* txt */
+.txt {
+
+}
+/* inner */
+.inner {
+  position: relative;
+  padding: 0 45px;
+}
+@media screen and (max-width: 414px) {
+  .inner {
+    padding: 0 0.6%;
+  }
+}
+/* diplay */
+.block {
+  display: block;
+}
+.block_p {
+	display: block;
+}
+.block_s {
+	display: none;
+}
+.inline_p {
+	display: inline;
+}
+.inline_s {
+	display: none;
+}
+@media screen and (max-width: 414px) {
+.block_p {
+  display: none;
+}
+.block_s {
+  display: block;
+}
+.inline_p {
+  display: none;
+}
+.inline_s {
+  display: inline;
+}
+}
+/* btn */
+.btn {
+  
+}
+.btn:hover {
+  
+}
+/* flex */
+.row {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.between {
+  -ms-justify-content : space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack : justify;
+  justify-content: space-between;
+}
+/* fadein */
+.fadein {
+  opacity : 0;
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/* tel */
+.tel {
+  
+}
+@media screen and (max-width: 414px) {
+   /* wrapper */
+    .wrapper {
+        min-width: 100%;
+    }
+    /* br */
+    .sp_br {
+      display: block;
+    }
+    /* inner */
+    .inner {
+        width: 100%;
+        padding: 0 20px;
+    }
+    /* diplay */
+    .block_p {
+        display: none;
+    }
+    .block_s {
+        display: block;
+    }
+    .inline_p {
+        display: none;
+    }
+    .inline_s {
+        display: inline;
+    }
+    /* ttl */
+    
+    /* txt */
+    
+    /* tel */
+    .tel {
+      
+    }
+}
+
+
